@@ -1,7 +1,9 @@
-# fish-shell-scripts
-These are some scripts I use to customize my fish shell.
+# dotfiles
+These are my dotfiles for configuring various tools.
 
-Remember to do ```funcsave``` to save these scripts to fish's autoloader.
 
-### Scripts
-- ```startup_prompt.sh``` displays some nice ascii art on startup
+## Fish Shell Scripts
+Remember to do ```funcsave``` to save these scripts to fish's autoloader, or move them to your ```~/.config/fish``` directory.
+
+- ```fish_greeting.fish``` displays some nice ascii art on startup
+- ```fish_prompt.fish``` changes the prompt to be hostname, pwd, and a nice lambda symbol
